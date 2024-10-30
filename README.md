@@ -1,4 +1,4 @@
-#  Project: Flight Delays and Cancellations During the Holiday Seaso
+#  Project: Predict Flight Delays and Cancellations During the Holiday Season
 Yuchen Xu, Mario Ma, Yiteng Tu, Yudi Wang.
 
 ## Description
