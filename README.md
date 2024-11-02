@@ -7,9 +7,15 @@ The holiday season (November to January) is one of the busiest times for airline
 ## Repository Structure
 
 ### 1. Code
-- **match.ipynb**:
-  - Organizes initial airport data. Calculates the distance between latitude and longitude coordinates using the Haversine formula to match each airport with its corresponding weather station.
-  
+- **match1.ipynb**:
+  - Organizes initial flight data. Calculates the distance between latitude and longitude coordinates using the Haversine formula to match each airport with its corresponding weather station.
+- **match_faileddownload.ipynb**:
+  - Finds the second and third closest weather stations for airports where the initial data download failed.
+- **airporttimezone.ipynb**:
+  - Determines the timezone associated with each airport.
+- **timezone_flight2.ipynb**:
+  - Standardizes the four key times in the flight data (CRSDepTime, CRSArrTime, DepTime, ArrTime) to Central Standard Time (CST).
+
 ### 2. Data
 - **Airport situation.csv**: Contains the raw data used for this project.
 - **ghcnh-station-list.csv.csv**: Contains the raw data used for this project.
