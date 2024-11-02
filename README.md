@@ -39,5 +39,5 @@ The holiday season (November to January) is one of the busiest times for airline
 - Presentation slides summarizing the project, including the datacleaning, methodology, and results.
 
 ## Shiny Link
-The Shiny app allows users to interactively input measurements and predict body fat percentage based on the trained model. You can access the live app here:
+The Shiny app allows users to interactively . You can access the live app here:
 - [Shiny App Link](https://mario2747.shinyapps.io/)
