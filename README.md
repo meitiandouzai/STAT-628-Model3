@@ -17,9 +17,14 @@ The holiday season (November to January) is one of the busiest times for airline
   - Standardizes the four key times in the flight data (CRSDepTime, CRSArrTime, DepTime, ArrTime) to Central Standard Time (CST).
 
 ### 2. Data
-- **Airport situation.csv**: Contains the raw data used for this project.
-- **ghcnh-station-list.csv.csv**: Contains the raw data used for this project.
-- **Airport situation unique.csv**: Contains the raw data used for this project.
+- **ghcnh-station-list.csv**: Contains raw data on weather station information..
+- **flight_holidayseason.zip**: Contains raw filght data.
+- **weather.zip**: Contains raw weather data.
+- **flight_processed.zip**: Contains flight data with converted time zones.
+- **Filtered_Airport_US_Unique.csv**: Contains airports with their latitude and longitude.
+- **Airport_with_Nearest_Station.csv**: Contains airport latitude and longitude along with the nearest weather station and its distance..
+- **failed_downloads.csv**: Contains airports where the initial data download failed.
+- **Falied_Airport_with_Nearest_Station.csv**: Contains faildownload airport latitude and longitude along with the distances to the three nearest weather stations..
 
 ### 3. Image
 - Contains various images and plots generated during the data analysis and modeling stages.
