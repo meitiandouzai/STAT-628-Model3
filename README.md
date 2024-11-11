@@ -25,7 +25,9 @@ The holiday season (November to January) is one of the busiest times for airline
 - **model-cancelled-reg-lgb.ipynb** & **model_py_cancelled_randomforest.ipynb**:
   - To predict flight cancellations, train logistic regression, LightGBM, and random forest models. For each model, we test whether to use SMOTE oversampling and whether to apply one-hot encoding.
 - **model-cancelled-delay-*.ipynb** :
-  - To predict flight arrival delay, train regression, LightGBM, random forest and neural network models. 
+  - To predict flight arrival delay, train regression, LightGBM, random forest and neural network models.
+- **finaldelaymodel.ipynb** :
+  - The final model to predict flight arrival delay and interpret of the model. 
    
 
 ### 2. Data
@@ -37,7 +39,8 @@ The holiday season (November to January) is one of the busiest times for airline
 - **Filtered_Airport_US_Unique.csv**: Contains airports with their latitude and longitude.
 - **Airport_with_Nearest_Station.csv**: Contains airport latitude and longitude along with the nearest weather station and its distance..
 - **failed_downloads.csv**: Contains airports where the initial data download failed.
-- **Falied_Airport_with_Nearest_Station.csv**: Contains faildownload airport latitude and longitude along with the distances to the three nearest weather stations..
+- **Falied_Airport_with_Nearest_Station.csv**: Contains faildownload airport latitude and longitude along with the distances to the three nearest weather stations.
+- **final_data.csv**: Contains final data to fit the models.
 
 ### 3. Image
 - Contains various images and plots generated during the data analysis and modeling stages.
