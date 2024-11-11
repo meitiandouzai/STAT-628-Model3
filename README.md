@@ -24,6 +24,8 @@ The holiday season (November to January) is one of the busiest times for airline
   - Merge the flight dataset and the weather dataset based on time converted to the same timezone. The merging method is as follows: for each flight sample, append the hourly weather data for both the departure and destination locations at the scheduled departure time to that row in the flight dataset.
 - **model-cancelled-reg-lgb.ipynb** & **model_py_cancelled_randomforest.ipynb**:
   - To predict flight cancellations, train logistic regression, LightGBM, and random forest models. For each model, we test whether to use SMOTE oversampling and whether to apply one-hot encoding.
+- **model-cancelled-delay-*.ipynb** :
+  - To predict flight arrival delay, train regression, LightGBM, random forest and neural network models. 
    
 
 ### 2. Data
