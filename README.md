@@ -40,7 +40,7 @@ The holiday season (November to January) is one of the busiest times for airline
 - **Airport_with_Nearest_Station.csv**: Contains airport latitude and longitude along with the nearest weather station and its distance..
 - **failed_downloads.csv**: Contains airports where the initial data download failed.
 - **Falied_Airport_with_Nearest_Station.csv**: Contains faildownload airport latitude and longitude along with the distances to the three nearest weather stations.
-- **final_data.csv**: Contains final data to fit the models.
+- **final_data.zip**: Contains final data to fit the models.
 
 ### 3. Image
 - Contains various images and plots generated during the data analysis and modeling stages.
