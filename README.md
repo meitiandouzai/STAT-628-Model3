@@ -17,6 +17,14 @@ The holiday season (November to January) is one of the busiest times for airline
 - **timezone_flight2.ipynb**:
   - Organizes raw flight data.
   - Standardizes the four key times in the flight data (CRSDepTime, CRSArrTime, DepTime, ArrTime) to Central Standard Time (CST).
+- **Merge1.ipynb**:
+  - Select weather data for the holiday season (November-January).
+  - Combine all flight data into a csv file.
+- **Merge_final.ipynb**:
+  - Merge the flight dataset and the weather dataset based on time converted to the same timezone. The merging method is as follows: for each flight sample, append the hourly weather data for both the departure and destination locations at the scheduled departure time to that row in the flight dataset.
+- **model-cancelled-reg-lgb.ipynb** & **model_py_cancelled_randomforest.ipynb**:
+  - To predict flight cancellations, train logistic regression, LightGBM, and random forest models. For each model, we test whether to use SMOTE oversampling and whether to apply one-hot encoding.
+   
 
 ### 2. Data
 - **ghcnh-station-list.csv**: Contains raw data on weather station information.
