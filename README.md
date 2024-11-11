@@ -33,14 +33,14 @@ The holiday season (November to January) is one of the busiest times for airline
 ### 2. Data
 - **ghcnh-station-list.csv**: Contains raw data on weather station information.
 - **T_MASTER_CORD.csv**: Contains raw airport data.
-- **flight_holidayseason.zip**[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto): Contains raw filght data.
-- **weather.zip**[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto): Contains raw weather data.
-- **flight_processed.zip**[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto): Contains flight data with converted time zones.
+- **flight_holidayseason.zip**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains raw filght data.
+- **weather.zip**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains raw weather data.
+- **flight_processed.zip**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains flight data with converted time zones.
 - **Filtered_Airport_US_Unique.csv**: Contains airports with their latitude and longitude.
 - **Airport_with_Nearest_Station.csv**: Contains airport latitude and longitude along with the nearest weather station and its distance..
 - **failed_downloads.csv**: Contains airports where the initial data download failed.
 - **Falied_Airport_with_Nearest_Station.csv**: Contains faildownload airport latitude and longitude along with the distances to the three nearest weather stations.
-- **final_data.zip**[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto): Contains final data to fit the models.
+- **final_data.zip**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains final data to fit the models.
 
 ### 3. Image
 - Contains various images and plots generated during the data analysis and modeling stages.
