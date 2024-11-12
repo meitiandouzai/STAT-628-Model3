@@ -28,7 +28,8 @@ The holiday season (November to January) is one of the busiest times for airline
   - To predict flight arrival delay, train regression, LightGBM, random forest and neural network models.
 - **finaldelaymodel.ipynb** :
   - The final model to predict flight arrival delay and interpret of the model. 
-   
+- **tips on delay.ipynb** :
+  - The code for getting some tips on our delay model. 
 
 ### 2. Data
 - **ghcnh-station-list.csv**: Contains raw data on weather station information.
