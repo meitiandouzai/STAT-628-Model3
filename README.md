@@ -51,6 +51,9 @@ The holiday season (November to January) is one of the busiest times for airline
 ### 5. Slides
 - Presentation slides summarizing the project, including the datacleaning, methodology, and results.
 
+### 6.Shiny
+- Shiny code can be found in the folder called shiny. Two models are in the same folder.
+
 ## Shiny Link
 The Shiny app allows users to interactively . You can access the live app here:
-- [Shiny App Link](https://mario2747.shinyapps.io/)
+- [Shiny App Link](https://mario2747.shinyapps.io/flightpredict/)
